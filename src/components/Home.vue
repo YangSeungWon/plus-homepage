@@ -272,7 +272,7 @@ export default {
         a {
           font-family: "Cardo", serif;
           text-decoration: none;
-          color: #363636;
+          color: #919191;
         }
       }
     }
