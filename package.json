@@ -1,8 +1,8 @@
 {
-  "name": "mh-portfolio-vuejs-and-gsap-template",
+  "name": "PLUS-homepage",
   "version": "1.0.0",
-  "description": "MH - Web Designer & Developer - every. pixel. matters.",
-  "author": "Mirza Hodzic / COIDEA <hello@coidea.website>",
+  "description": "PLUS homepage template",
+  "author": "Gnu posgnu@gmail.com",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
