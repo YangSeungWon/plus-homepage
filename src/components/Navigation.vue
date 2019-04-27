@@ -1,12 +1,9 @@
 <template>
   <div>
     <div class="cookies" v-if="cookies == false">
-      This website is for PLUS
-      <br>
-      <span class="green">
-        <span class="link" @click="allowCookies()">OK, CLOSE</span> this message or see
-        <router-link :to="'/imprint'" exact>imprint</router-link>for more infos.
-      </span>
+      Welcome to the homepage of PLUS, POSTECH hacking team.
+      <br>Powered by
+      <span class="green">GNu</span>
     </div>
 
     <nav class="navigation" v-if="$route.name !== 'Home'">
