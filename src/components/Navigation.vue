@@ -14,11 +14,11 @@
       <div class="logo">
         <router-link :to="'/'" exact>
           <img
-            width="380"
-            height="199"
+            width="300"
+            height="299"
             class="logo-txt"
-            src="/static/owl.png"
-            alt="MH - Web Designer & Developer - Logo"
+            src="../assets/plus-logo.png"
+            alt="PLUS logo"
           >
           <div class="logo-bg-holder">
             <div class="logo-bg oval-big"></div>
@@ -33,22 +33,13 @@
       <div class="main-navigation">
         <ul>
           <li>
-            <router-link :to="'/author'" exact>
-              author
-              <span>.</span>
-            </router-link>
+            <router-link :to="'/about'" exact>author.</router-link>
           </li>
           <li>
-            <router-link :to="'/works'" exact>
-              works
-              <span>.</span>
-            </router-link>
+            <router-link :to="'/works'" exact>works.</router-link>
           </li>
           <li>
-            <router-link :to="'/contact'" exact>
-              contact
-              <span>.</span>
-            </router-link>
+            <router-link :to="'/members'" exact>contact.</router-link>
           </li>
         </ul>
       </div>
@@ -193,6 +184,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../style/style";
 // mixins - media query
 @mixin maxquery($width, $ratio: false) {
   @if $ratio {
@@ -287,7 +279,7 @@ nav {
         &.oval-big {
           width: 76px;
           height: 82px;
-          background: #a5d6a7;
+          background: $big;
           margin-top: -41px;
           margin-left: -38px;
           z-index: 1;
@@ -297,7 +289,7 @@ nav {
         &.oval-small {
           width: 68px;
           height: 60px;
-          background: #a5d6a7;
+          background: $small;
           margin-top: -30px;
           margin-left: -34px;
           z-index: 2;
@@ -307,7 +299,7 @@ nav {
         &.circle {
           width: 48px;
           height: 48px;
-          background: #a5d6a7;
+          background: $circle;
           transform: translate(-50%, -50%);
           z-index: 3;
         }
@@ -321,7 +313,7 @@ nav {
       visibility: hidden;
       ul {
         position: relative;
-        display: block;
+        display: inline;
         overflow: hidden;
         width: 100%;
         max-width: 224px;
@@ -336,7 +328,7 @@ nav {
         }
         li {
           position: relative;
-          display: block;
+          display: inline;
           float: left;
           padding: 8px;
           @include maxquery(640px) {
