@@ -17,7 +17,7 @@
             width="380"
             height="199"
             class="logo-txt"
-            src="/static/logo.png"
+            src="/static/owl.png"
             alt="MH - Web Designer & Developer - Logo"
           >
           <div class="logo-bg-holder">

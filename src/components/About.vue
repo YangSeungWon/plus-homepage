@@ -1,23 +1,61 @@
 <template>
   <div>
-    <div class="author-holder fade-component">
+    <div class="about-holder fade-component">
       <!-- headline START -->
-      <h1>
-        Every. Word.
-        <br>Matters.
-      </h1>
+      <h1>About us</h1>
       <!-- headline END -->
 
       <!-- content START -->
+      <h2 class="divider-line fade-component">
+        <span>포항공과대학교 동아리 PLUS</span>
+      </h2>
       <div class="content">
-        <p>Topping tart marshmallow. Muffin icing bear claw ice cream marzipan caramels. Sweet apple pie cotton candy gummies. Brownie icing marzipan.</p>
-
-        <p>Oat cake gingerbread tootsie roll ice cream dragée gummies biscuit pudding fruitcake. Lollipop jelly-o pudding lollipop lemon drops jelly-o lemon drops fruitcake jelly. Dessert sweet roll croissant oat cake muffin carrot cake lemon drops muffin dessert. Sweet dessert ice cream croissant pudding.</p>
-
-        <p>Topping apple pie soufflé sweet gingerbread sugar plum cheesecake bear claw carrot cake. Bear claw donut marshmallow fruitcake jelly beans. Candy jujubes topping cake.</p>
-
-        <p>Gingerbread jelly-o cheesecake candy canes gummies cake chocolate cheesecake cupcake. Cheesecake bear claw liquorice sesame snaps ice cream lemon drops cotton candy. Croissant soufflé gingerbread cotton candy toffee gummies. Candy pie cookie candy canes croissant chocolate tart.</p>
+        <p>
+          PLUS는 Postech Laboratory for Unix Security의 약자로, UNIX System 보안을 연구하는 포항공대 연구회라는 의미입니다.사실 연구대상은 Unix System 뿐 아니라 Windows, Linux 등 일반적인 Network Client/Server를 포괄합니다.
+          동아리 설립 당시에는 Network Client/Server의 대부분이 UNIX였기 때문에 이런 이름이 붙여졌습니다.
+        </p>
+        <p>
+          가 동아리로 변경된 이후 매년 경쟁을 통해 4~5명 정도의 회원을 선발하고 있습니다.
+          매년 1학기에 지원자들을 수습회원으로 선발한 뒤, 내부 문제 풀이 사이트에서의 성과와 면접을 바탕으로 활동인원을 선발합니다.
+          선발과정에서는 해킹/보안에 관한 열정과 스스로 공부할 수 있는 능력을 평가합니다.
+          이렇게 뽑힌 신입회원들은 1년여간 학기중, 방학중 교육을 통해 다양한 분야에 대한 기본기를 갖추고, 이후 자기주도적으로 관심 분야를 집중적으로 공부합니다.
+        </p>
+        <p>
+          한글 공식 명칭 :
+          <b>플러스</b>
+        </p>
+        <p>
+          영문 공식 명칭 :
+          <b>PLUS</b>
+        </p>
       </div>
+
+      <h2 class="divider-line fade-component">
+        <span>설립 년도와 취지</span>
+      </h2>
+      <div class="content">
+        <p>1992년 9월 교내 네트웍의 관리를 위해 탄생했습니다. 그 시절의 포항공대는 네트웍자원에서 선구자적인 위치를 띄고 있었으며, 이런 환경에서 PLUS는 UNIX와 네트웍 보안을 연구하는 모임이었습니다. 2000년도 PLUS는 좀더 자율적인 연구 환경을 위해 동아리로 거듭나서 현재까지 이어져 오고 있습니다.</p>
+      </div>
+
+      <h2 class="divider-line fade-component">
+        <span>활동 내용</span>
+      </h2>
+      <div class="content">
+        <ul>
+          <li v-for="item in activities">{{ item }}</li>
+        </ul>
+      </div>
+      <div class="content"></div>
+
+      <h2 class="divider-line fade-component">
+        <span>연락처</span>
+      </h2>
+      <div class="content">
+        <ul>
+          <li v-for="item in contact">{{ item }}</li>
+        </ul>
+      </div>
+
       <!-- content END -->
 
       <h2 class="divider-line fade-component">
@@ -32,7 +70,7 @@
               <div class="logo-bg-holder">
                 <div class="logo-bg social-oval-big rotating-fast"></div>
               </div>
-              <span>images</span>
+              <span>facebook</span>
             </a>
           </li>
           <li>
@@ -65,11 +103,12 @@ import { TweenMax } from "gsap";
 import ScrollMagic from "scrollmagic";
 // jquery
 import $ from "jquery";
-
+import activities from "../../static/activities.json";
+import contact from "../../static/contact.json";
 export default {
-  name: "Author",
+  name: "About",
   data() {
-    return {};
+    return { activities: activities, contact: contact };
   },
   mounted() {},
   methods: {}
@@ -77,6 +116,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../style/style";
 // mixins - media query
 @mixin maxquery($width, $ratio: false) {
   @if $ratio {
@@ -91,7 +131,7 @@ export default {
     }
   }
 }
-.author-holder {
+.about-holder {
   // social
   .social {
     ul {
@@ -172,7 +212,7 @@ export default {
               &.social-oval-big {
                 width: 72px;
                 height: 64px;
-                background: #a5d6a7;
+                background: $big;
                 transform: translate(-50%, -50%);
                 z-index: -3;
                 opacity: 0.25;
@@ -180,7 +220,7 @@ export default {
               &.social-oval-small {
                 width: 54px;
                 height: 62px;
-                background: #a5d6a7;
+                background: $small;
                 transform: translate(-50%, -50%);
                 z-index: -2;
                 opacity: 0.45;
@@ -188,7 +228,7 @@ export default {
               &.social-circle {
                 width: 94px;
                 height: 94px;
-                background: #a5d6a7;
+                background: $circle;
                 transform: translate(-50%, -50%);
                 z-index: -1;
               }
@@ -209,8 +249,8 @@ export default {
     display: block;
     overflow: hidden;
     width: 100%;
-    width: calc(100vw - 120px);
-    max-width: 760px;
+    width: calc(100vw - 100px);
+    max-width: 960px;
     padding-bottom: 20px;
     padding-left: 60px;
     @include maxquery(640px) {

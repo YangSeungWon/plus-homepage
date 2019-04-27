@@ -136,6 +136,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../style/style";
 // mixins - media query
 @mixin maxquery($width, $ratio: false) {
   @if $ratio {
@@ -212,7 +213,7 @@ export default {
       &.oval-big {
         width: 540px;
         height: 580px;
-        background: #cecece;
+        background: $big;
         margin-top: -290px;
         margin-left: -270px;
         z-index: 1;
@@ -222,7 +223,7 @@ export default {
       &.oval-small {
         width: 480px;
         height: 420px;
-        background: #a1a1a1;
+        background: $small;
         margin-top: -210px;
         margin-left: -240px;
         z-index: 2;
@@ -232,7 +233,7 @@ export default {
       &.circle {
         width: 360px;
         height: 360px;
-        background: #727272;
+        background: $circle;
         transform: translate(-50%, -50%);
         z-index: 3;
       }

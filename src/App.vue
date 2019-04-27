@@ -105,7 +105,7 @@ body {
       font-weight: 300;
       span {
         position: relative;
-        color: #ccc;
+        color: rgb(119, 119, 119);
         letter-spacing: 2px;
         &:before,
         &:after {
