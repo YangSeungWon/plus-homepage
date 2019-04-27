@@ -23,7 +23,7 @@
           <div class="logo-bg-holder">
             <div class="logo-bg oval-big"></div>
             <div class="logo-bg oval-small"></div>
-            <div class="logo-bg circle"></div>
+            <img src="static/owl.png" class="logo-bg circle" style="opacity:0.5">
           </div>
         </router-link>
       </div>
