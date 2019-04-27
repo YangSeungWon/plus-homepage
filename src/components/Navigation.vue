@@ -1,9 +1,12 @@
 <template>
   <div>
     <div class="cookies" v-if="cookies == false">
-      Welcome to the homepage of PLUS, POSTECH hacking team.
+      Welcome to the homepage of
+      <span class="green">PLUS</span>, POSTECH hacking team.
       <br>Powered by
-      <span class="green">GNu</span>
+      GNu posgnu@gmail.com
+      <br>
+      <span class="link" @click="allowCookies()">OK, CLOSE</span>
     </div>
 
     <nav class="navigation" v-if="$route.name !== 'Home'">
