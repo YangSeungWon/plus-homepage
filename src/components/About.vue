@@ -56,6 +56,13 @@
         </ul>
       </div>
 
+      <h2 class="divider-line fade-component">
+        <span>PLUS 상징</span>
+      </h2>
+      <div class="content">
+        <img src="/static/owl-logo.png">
+      </div>
+
       <!-- content END -->
 
       <h2 class="divider-line fade-component">
@@ -66,23 +73,26 @@
       <div class="social">
         <ul>
           <li>
-            <a href="https://www.instagram.com/coidea.website/" target="_blank">
+            <a href="https://wiki.plus.or.kr" target="_blank">
               <div class="logo-bg-holder">
                 <div class="logo-bg social-oval-big rotating-fast"></div>
               </div>
-              <span>facebook</span>
+              <span>wiki</span>
             </a>
           </li>
           <li>
-            <a href="mailto:hello@coidea.website" target="_blank">
+            <a href="https://www.facebook.com/plus.postech/" target="_blank">
               <div class="logo-bg-holder">
                 <div class="logo-bg social-circle"></div>
               </div>
-              <span>answers</span>
+              <span>Facebook</span>
             </a>
           </li>
           <li>
-            <a href="https://github.com/COIDEAwebsite" target="_blank">
+            <a
+              href="http://admission.postech.ac.kr/bbsLink.do?f=sub6-1_read&boardId=GSKO_POS_YEAR&BOARDSEQ=328&iNowPage=2"
+              target="_blank"
+            >
               <div class="logo-bg-holder">
                 <div class="logo-bg social-oval-small rotating-slow"></div>
               </div>

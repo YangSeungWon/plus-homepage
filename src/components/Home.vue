@@ -4,13 +4,7 @@
     <div class="home-holder">
       <!-- home:logo START -->
       <div class="logo">
-        <img
-          width="380"
-          height="199"
-          class="logo-txt"
-          src="../assets/plus-logo.png"
-          alt="plus logo"
-        >
+        <img width="380" height="199" class="logo-txt" src="/static/plus-logo.png" alt="plus logo">
         <div class="logo-bg-holder">
           <div class="logo-bg oval-big"></div>
           <div class="logo-bg oval-small"></div>

@@ -17,7 +17,7 @@
             width="300"
             height="299"
             class="logo-txt"
-            src="../assets/plus-logo.png"
+            src="/static/plus-logo.png"
             alt="PLUS logo"
           >
           <div class="logo-bg-holder">
