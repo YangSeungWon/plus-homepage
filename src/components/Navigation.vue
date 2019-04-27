@@ -33,13 +33,13 @@
       <div class="main-navigation">
         <ul>
           <li>
-            <router-link :to="'/about'" exact>author.</router-link>
+            <router-link :to="'/about'" exact>About.</router-link>
           </li>
           <li>
-            <router-link :to="'/works'" exact>works.</router-link>
+            <router-link :to="'/works'" exact>Works.</router-link>
           </li>
           <li>
-            <router-link :to="'/members'" exact>contact.</router-link>
+            <router-link :to="'/members'" exact>Members.</router-link>
           </li>
         </ul>
       </div>
