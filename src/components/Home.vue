@@ -222,7 +222,7 @@ export default {
       &.oval-small {
         width: 480px;
         height: 420px;
-        background: #838383;
+        background: #a1a1a1;
         margin-top: -210px;
         margin-left: -240px;
         z-index: 2;
@@ -232,7 +232,7 @@ export default {
       &.circle {
         width: 360px;
         height: 360px;
-        background: #5a5a5a;
+        background: #727272;
         transform: translate(-50%, -50%);
         z-index: 3;
       }
