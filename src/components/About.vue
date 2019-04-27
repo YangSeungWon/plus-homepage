@@ -28,6 +28,16 @@
           영문 공식 명칭 :
           <b>PLUS</b>
         </p>
+        <br>
+        <p>PLUS is an undergraduate cyber-security study club at Pohang University of Science and Technology (POSTECH). PLUS has competed in several domestic and international CTFs since 1992.</p>
+        <p>
+          In Korean :
+          <b>플러스</b>
+        </p>
+        <p>
+          In English :
+          <b>PLUS</b>
+        </p>
       </div>
 
       <h2 class="divider-line fade-component">
