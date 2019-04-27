@@ -8,7 +8,7 @@ A template made with [Vue.js](https://vuejs.org/) & [GSAP](https://greensock.com
 $ cd path/to/your/folder
 
 # clone this project
-$ git clone git@github.com:GNUp/PLUS-homepage.git
+$ git clone https://github.com/GNUp/PLUS-homepage.git
 ```
 
 ## Build Setup
