@@ -316,7 +316,7 @@ nav {
         display: inline;
         overflow: hidden;
         width: 100%;
-        max-width: 224px;
+        max-width: 324px;
         list-style-type: none;
         padding: 0;
         margin: 0;

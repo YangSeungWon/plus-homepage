@@ -5,7 +5,11 @@ import About from '@/components/About'
 import Works from '@/components/Works'
 import Members from '@/components/Members'
 import Imprint from '@/components/Imprint'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+Vue.use(BootstrapVue)
 Vue.use(Router)
 
 export default new Router({
