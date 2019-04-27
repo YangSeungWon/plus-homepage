@@ -23,13 +23,13 @@
       <div class="custom-navigation">
         <ul>
           <li>
-            <router-link :to="'/author'" exact>author</router-link>
+            <router-link :to="'/about'" exact>About</router-link>
           </li>
           <li>
-            <router-link :to="'/works'" exact>works</router-link>
+            <router-link :to="'/works'" exact>Works</router-link>
           </li>
           <li>
-            <router-link :to="'/contact'" exact>contact</router-link>
+            <router-link :to="'/members'" exact>Members</router-link>
           </li>
         </ul>
       </div>
@@ -246,7 +246,7 @@ export default {
     visibility: hidden;
     ul {
       position: relative;
-      display: block;
+      display: inline;
       overflow: hidden;
       width: 100%;
       max-width: 216px;
@@ -261,7 +261,7 @@ export default {
       }
       li {
         position: relative;
-        display: block;
+        display: inline;
         float: left;
         padding: 8px;
         @include maxquery(640px) {

@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import Author from '@/components/Author'
+import About from '@/components/About'
 import Works from '@/components/Works'
-import Contact from '@/components/Contact'
+import Members from '@/components/Members'
 import Imprint from '@/components/Imprint'
 
 Vue.use(Router)
@@ -11,16 +11,15 @@ Vue.use(Router)
 export default new Router({
   // base: '/demos/mh-portfolio-vuejs-and-gsap-template/', // --> IF WEBAPP IN SUBFOLDER THEN path/to/subfolder
   mode: 'history',
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'Home',
       component: Home
     },
     {
-      path: '/author',
-      name: 'Author',
-      component: Author
+      path: '/about',
+      name: 'About',
+      component: About
     },
     {
       path: '/works',
@@ -28,9 +27,9 @@ export default new Router({
       component: Works
     },
     {
-      path: '/contact',
-      name: 'Contact',
-      component: Contact
+      path: '/members',
+      name: 'Members',
+      component: Members
     },
     {
       path: '/imprint',
