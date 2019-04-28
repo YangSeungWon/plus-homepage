@@ -13,7 +13,6 @@ Vue.use(BootstrapVue)
 Vue.use(Router)
 
 export default new Router({
-  // base: '/demos/mh-portfolio-vuejs-and-gsap-template/', // --> IF WEBAPP IN SUBFOLDER THEN path/to/subfolder
   mode: 'history',
   routes: [{
       path: '/',
