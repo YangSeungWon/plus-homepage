@@ -13,7 +13,7 @@
     <div class="works-holder fade-component">
       <div
         class="work"
-        data-image="#D2ffC22"
+        data-image="#777777"
         @mouseenter="over($event)"
         @mouseleave="leave($event)"
         :key="0"
@@ -32,24 +32,19 @@
         </div>
         <div class="content">
           <p>
-            <strong>FAVORITE #01</strong>
-            <br>Client
+            <strong>대회명</strong>
+            <br>PCTF2019
           </p>
           <p>
-            <strong>DEVELOPMENT</strong>
-            <br>SCSS - VUE.JS - WORDPRESS
+            <strong>팀명</strong>
+            <br>seoulplusbadass
           </p>
           <p>
-            <strong>ENDPOINT</strong>
-            <br>WEB & iOS - ANDROID
-          </p>
-          <p>
-            <strong>LIVE WEB</strong>
-            <br>
-            <a href="https://coidea.website" target="_blank">VISIT</a>
+            <strong>순위</strong>
+            <br>3위
           </p>
           <p class="copyright">
-            <span>@ lorem media</span>
+            <span>2019.4.20</span>
           </p>
         </div>
       </div>
@@ -58,9 +53,11 @@
     <h2 class="divider-line fade-component">
       <span>PLUS가 걸어온 길</span>
     </h2>
-    <!-- content START -->
-    <b-table striped hover :items="history"></b-table>
-    <!-- content END -->
+    <div class="fade-component">
+      <!-- content START -->
+      <b-table striped hover :items="history"></b-table>
+      <!-- content END -->
+    </div>
   </div>
 </template>
 
