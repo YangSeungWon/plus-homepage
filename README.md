@@ -80,6 +80,4 @@ $ yarn start
 
    - You can add another paragraph in `content division`
 
-For detailed explanation on how things work, checkout the [Vue.js docs](https://vuejs.org/v2/guide/).
-
-## No license No credit
+## No license No credit but do not distribute
