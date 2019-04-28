@@ -9,10 +9,51 @@
         <span>현재 활동 중인 구성원</span>
       </h2>
       <!-- content START -->
+
       <div class="content">
-        <div>
-          <b-table outlined small striped hover :items="active_member"></b-table>
-        </div>
+        <b-form-group label-cols-sm="3" label="Filter" class="mb-0">
+          <b-input-group>
+            <b-form-input v-model="filter1" placeholder="Type to Search"></b-form-input>
+            <b-input-group-append>
+              <b-button :disabled="!filter1" @click="filter1 = ''">Clear</b-button>
+            </b-input-group-append>
+          </b-input-group>
+        </b-form-group>
+        <b-table
+          id="active-table"
+          outlined
+          small
+          striped
+          hover
+          :items="active_member"
+          :current-page="currentPage1"
+          :per-page="perPage1"
+          :filter="filter1"
+          @filtered="onFiltered"
+          :fields="fields"
+        ></b-table>
+
+        <b-pagination
+          v-model="currentPage1"
+          :total-rows="totalRows1"
+          :per-page="perPage1"
+          class="my-0"
+          aria-controls="active-table"
+        >
+          <span class="text-success" slot="first-text">First</span>
+          <span class="text-danger" slot="prev-text">Prev</span>
+          <span class="text-warning" slot="next-text">Next</span>
+          <span class="text-info" slot="last-text">Last</span>
+          <div slot="ellipsis-text">
+            <b-spinner small type="grow"></b-spinner>
+            <b-spinner small type="grow"></b-spinner>
+            <b-spinner small type="grow"></b-spinner>
+          </div>
+          <span slot="page" slot-scope="{ page, active }">
+            <b v-if="active">{{ page }}</b>
+            <i v-else>{{ page }}</i>
+          </span>
+        </b-pagination>
       </div>
       <!-- content END -->
 
@@ -21,9 +62,49 @@
       </h2>
       <!-- content START -->
       <div class="content">
-        <div>
-          <b-table outlined small striped hover :items="inactive_member"></b-table>
-        </div>
+        <b-form-group label-cols-sm="3" label="Filter" class="mb-0">
+          <b-input-group>
+            <b-form-input v-model="filter2" placeholder="Type to Search"></b-form-input>
+            <b-input-group-append>
+              <b-button :disabled="!filter2" @click="filter2 = ''">Clear</b-button>
+            </b-input-group-append>
+          </b-input-group>
+        </b-form-group>
+        <b-table
+          id="inactive-table"
+          outlined
+          small
+          striped
+          hover
+          :items="inactive_member"
+          :current-page="currentPage2"
+          :per-page="perPage2"
+          :filter="filter2"
+          @filtered="onFiltered"
+          :fields="fields"
+        ></b-table>
+
+        <b-pagination
+          v-model="currentPage2"
+          :total-rows="totalRows2"
+          :per-page="perPage2"
+          class="my-0"
+          aria-controls="inactive-table"
+        >
+          <span class="text-success" slot="first-text">First</span>
+          <span class="text-danger" slot="prev-text">Prev</span>
+          <span class="text-warning" slot="next-text">Next</span>
+          <span class="text-info" slot="last-text">Last</span>
+          <div slot="ellipsis-text">
+            <b-spinner small type="grow"></b-spinner>
+            <b-spinner small type="grow"></b-spinner>
+            <b-spinner small type="grow"></b-spinner>
+          </div>
+          <span slot="page" slot-scope="{ page, active }">
+            <b v-if="active">{{ page }}</b>
+            <i v-else>{{ page }}</i>
+          </span>
+        </b-pagination>
       </div>
       <!-- content END -->
     </div>
@@ -54,11 +135,52 @@ export default {
   data() {
     return {
       inactive_member: inactive_member,
-      active_member: active_member
+      active_member: active_member,
+      totalRows1: 1,
+      currentPage1: 1,
+      perPage1: 10,
+      filter1: null,
+      totalRows2: 1,
+      currentPage2: 1,
+      perPage2: 10,
+      filter2: null,
+      fields: [
+        {
+          key: "m-id",
+          label: "정회원 번호",
+          sortable: true,
+          sortDirection: "desc",
+          class: "text-center"
+        },
+        {
+          key: "name",
+          label: "이름",
+          sortable: true,
+          sortDirection: "desc"
+        },
+        {
+          key: "std-id",
+          label: "학번",
+          class: "text-center",
+          sortable: true,
+          sortDirection: "desc"
+        },
+        { key: "etc", label: "비고", class: "text-center" }
+      ]
     };
   },
-  mounted() {},
-  methods: {}
+  mounted() {
+    // Set the initial number of items
+    this.totalRows1 = this.active_member.length;
+    this.totalRows2 = this.inactive_member.length;
+  },
+  methods: {
+    onFiltered(filteredItems) {
+      // Trigger pagination to update the number of buttons/pages due to filtering
+      this.totalRows = filteredItems.length;
+      this.currentPage = 1;
+    }
+  }
 };
 </script>
 
