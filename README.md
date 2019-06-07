@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/GNUp/PLUS-homepage">
-        <img src="https://img.shields.io/github/stars/luixaviles/socket-io-typescript-chat.svg?style=social&label=Star" alt="GitHub stars">
+        <img src="https://img.shields.io/github/stars/GNUp/PLUS-homepage.svg?style=social" alt="GitHub stars">
     </a>
 </p>
 # PLUS homepage Template
