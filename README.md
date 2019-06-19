@@ -31,7 +31,7 @@ $ yarn run build
 $ yarn start
 ```
 
-## Deploy
+## Before Deploy
 1. Change the information of the president in `/static/contact.json`
 
 2. Fill the member list in `/static/members.json`
