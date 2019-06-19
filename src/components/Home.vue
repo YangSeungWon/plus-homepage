@@ -166,6 +166,7 @@ export default {
     @include maxquery(640px) {
       width: 260px;
       height: auto;
+      width: auto;
     }
     .logo-txt {
       position: relative;
@@ -174,7 +175,7 @@ export default {
       @include maxquery(640px) {
         width: 260px;
         height: auto;
-        margin: auto;
+        margin-left: -64px;
       }
       opacity: 0;
       visibility: hidden;
@@ -190,7 +191,7 @@ export default {
         width: 320px;
         height: auto;
         margin-top: -77px;
-        right: -32px;
+        right: -45px;
       }
     }
     .logo-bg {
