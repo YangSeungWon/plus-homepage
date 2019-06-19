@@ -3,6 +3,7 @@
         <img src="https://img.shields.io/github/stars/GNUp/PLUS-homepage.svg?style=social" alt="GitHub stars">
     </a>
 </p>
+
 # PLUS homepage Template
 
 A template made with [Vue.js](https://vuejs.org/) & [GSAP](https://greensock.com/).
