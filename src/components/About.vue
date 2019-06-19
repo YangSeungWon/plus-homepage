@@ -106,7 +106,7 @@
               <div class="logo-bg-holder">
                 <div class="logo-bg social-oval-small rotating-slow"></div>
               </div>
-              <span>infos</span>
+              <span>info</span>
             </a>
           </li>
         </ul>
