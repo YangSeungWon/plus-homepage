@@ -1,14 +1,5 @@
 <template>
   <div>
-    <div class="cookies" v-if="cookies == false">
-      Welcome to the homepage of
-      <span class="green">PLUS</span>, POSTECH hacking team.
-      <br>Powered by
-      GNu posgnu@gmail.com
-      <br>
-      <span class="link" @click="allowCookies()">OK, CLOSE</span>
-    </div>
-
     <nav class="navigation" v-if="$route.name !== 'Home'">
       <!-- navigation:logo START -->
       <div class="logo">
@@ -105,7 +96,6 @@ export default {
         autoAlpha: 0,
         z: 0.01
       });
-      timeline.set($(".cookies"), { autoAlpha: 0 });
 
       timeline.fromTo(
         $(".navigation .circle"),
@@ -164,13 +154,6 @@ export default {
         { autoAlpha: 0 },
         { autoAlpha: 1, ease: Expo.easeOut },
         "-=2.5"
-      );
-      timeline.fromTo(
-        $(".cookies"),
-        2.5,
-        { autoAlpha: 0 },
-        { autoAlpha: 1, ease: Expo.easeOut },
-        "-=0.25"
       );
       // timeline.to( $('.navigation .oval-big'), 0.35, { className:"+=rotating-fast", ease: Expo.easeOut }, '+=2.35' )
       // timeline.to( $('.navigation .oval-small'), 0.35, { className:"+=rotating-slow", ease: Expo.easeOut }, '+=2.35' )

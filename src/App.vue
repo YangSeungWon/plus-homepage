@@ -4,6 +4,8 @@
     <navigation/>
     <!-- navigation END -->
 
+    <Cookie/>
+
     <!-- view START -->
     <transition name="fade">
       <router-view/>
@@ -19,6 +21,7 @@
 <script>
 import Navigation from "@/components/Navigation";
 import AppFooter from "@/components/Footer";
+import Cookie from "@/components/Cookie";
 export default {
   name: "App",
   data() {
@@ -26,7 +29,8 @@ export default {
   },
   components: {
     Navigation,
-    AppFooter
+    AppFooter,
+    Cookie
   }
 };
 </script>
