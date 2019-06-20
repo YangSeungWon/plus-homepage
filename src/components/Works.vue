@@ -222,12 +222,7 @@ export default {
     padding: 16px;
     float: left;
     @include maxquery(992px) {
-      width: 48.3333%;
-      width: calc(50% - 32px);
-    }
-    @include maxquery(768px) {
-      width: 98%;
-      width: calc(100% - 32px);
+      width: 100%;
     }
     .content {
       position: absolute;

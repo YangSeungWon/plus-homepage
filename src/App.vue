@@ -174,6 +174,9 @@ body {
     width: 98%;
     width: calc(100% - 32px);
     padding: 0 16px;
+    @include maxquery(640px) {
+      width: 100%;
+    }
   }
 }
 // page transitions

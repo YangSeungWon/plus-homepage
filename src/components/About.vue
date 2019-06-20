@@ -69,7 +69,7 @@
       <h2 class="divider-line fade-component">
         <span>PLUS 상징</span>
       </h2>
-      <div class="content">
+      <div class="content image-content">
         <img src="/static/owl-logo.png">
       </div>
 
@@ -264,6 +264,13 @@ export default {
       }
     }
   }
+
+  .image-content {
+    @include maxquery(640px) {
+      text-align: center;
+    }
+  }
+
   .content {
     position: relative;
     display: block;
@@ -274,7 +281,7 @@ export default {
     padding-bottom: 20px;
     padding-left: 60px;
     @include maxquery(640px) {
-      width: calc(100% - 32px);
+      width: 100%;
       padding-left: 0px;
       padding-right: 0px;
     }
