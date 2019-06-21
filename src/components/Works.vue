@@ -39,7 +39,7 @@
           </p>
           <p>
             <strong>팀명</strong>
-            <br>seoulplusbadass
+            <br>Leavecat-PLUS
           </p>
           <p>
             <strong>순위</strong>
@@ -135,46 +135,6 @@
       <!-- Work START -->
       <div
         class="work"
-        data-image="#17f1f7"
-        @mouseenter="over($event)"
-        @mouseleave="leave($event)"
-        :key="0"
-      >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
-        <div class="logo-bg-holder">
-          <div
-            class="logo-bg work-oval-big rotating-fast"
-            style="background-color: #FFF !important"
-          ></div>
-          <div
-            class="logo-bg work-oval-small rotating-slow"
-            style="background-color: #FFF !important"
-          ></div>
-          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
-        </div>
-        <div class="content">
-          <p>
-            <strong>대회명</strong>
-            <br>PlaidCTF 2018
-          </p>
-          <p>
-            <strong>팀명</strong>
-            <br>KaisHack PLUS GoN
-          </p>
-          <p>
-            <strong>순위</strong>
-            <br>4위
-          </p>
-          <p class="copyright">
-            <span>2018.5.7</span>
-          </p>
-        </div>
-      </div>
-      <!-- Work END -->
-
-      <!-- Work START -->
-      <div
-        class="work"
         data-image="#177177"
         @mouseenter="over($event)"
         @mouseleave="leave($event)"
@@ -247,6 +207,46 @@
           </p>
           <p class="copyright">
             <span>2018.5.14</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#17f1f7"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>PlaidCTF 2018
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>KaisHack PLUS GoN
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>4위
+          </p>
+          <p class="copyright">
+            <span>2018.5.7</span>
           </p>
         </div>
       </div>
