@@ -4,8 +4,6 @@
     <navigation/>
     <!-- navigation END -->
 
-    <Cookie/>
-
     <!-- view START -->
     <transition name="fade">
       <router-view/>

@@ -5,12 +5,9 @@
         <span></span>
       </h2>
       <div class="footer-inner">
-        <div class="copyright">
-          &copy; With Vue.js & GSAP /
-          <a
-            href="https://github.com/GNUp/PLUS-homepage"
-            target="_blank"
-          >repository</a>
+        <div class="black">
+          Welcome to the homepage of
+          <span class="green">PLUS</span>, POSTECH hacking team.
         </div>
         <div class="extra">
           <ul>
@@ -34,12 +31,20 @@
             </li>
           </ul>
           <ul>
+            Powered by GNu
             <li>
               <a href="mailto:posgnu@gmail.com" class="green">
                 <strong>posgnu@gmail.com</strong>
               </a>
             </li>
           </ul>
+        </div>
+        <div class="copyright">
+          &copy; With Vue.js & GSAP /
+          <a
+            href="https://github.com/GNUp/PLUS-homepage"
+            target="_blank"
+          >repository</a>
         </div>
       </div>
     </div>
@@ -70,6 +75,12 @@ export default {
     font-size: 16px;
     color: #cccccc;
     text-align: center;
+    .black {
+      color: black;
+    }
+    .green {
+      font-weight: 700;
+    }
     ul {
       padding: 0;
       margin: 0;
