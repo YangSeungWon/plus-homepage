@@ -120,11 +120,11 @@ export default {
       active_member: active_member,
       totalRows1: 1,
       currentPage1: 1,
-      perPage1: 10,
+      perPage1: 500,
       filter1: null,
       totalRows2: 1,
       currentPage2: 1,
-      perPage2: 10,
+      perPage2: 500,
       filter2: null,
       fields: [
         {
