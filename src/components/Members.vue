@@ -32,19 +32,6 @@
           @filtered="onFiltered"
           :fields="fields"
         ></b-table>
-
-        <b-pagination
-          v-model="currentPage1"
-          :total-rows="totalRows1"
-          :per-page="perPage1"
-          class="my-0"
-          aria-controls="active-table"
-        >
-          <span slot="page" slot-scope="{ page, active }">
-            <b v-if="active">{{ page }}</b>
-            <i v-else>{{ page }}</i>
-          </span>
-        </b-pagination>
       </div>
       <!-- content END -->
 
@@ -74,19 +61,6 @@
           @filtered="onFiltered"
           :fields="fields"
         ></b-table>
-
-        <b-pagination
-          v-model="currentPage2"
-          :total-rows="totalRows2"
-          :per-page="perPage2"
-          class="my-0"
-          aria-controls="inactive-table"
-        >
-          <span slot="page" slot-scope="{ page, active }">
-            <b v-if="active">{{ page }}</b>
-            <i v-else>{{ page }}</i>
-          </span>
-        </b-pagination>
       </div>
       <!-- content END -->
     </div>
