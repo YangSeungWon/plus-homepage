@@ -40,15 +40,6 @@
           class="my-0"
           aria-controls="active-table"
         >
-          <span class="text-success" slot="first-text">First</span>
-          <span class="text-danger" slot="prev-text">Prev</span>
-          <span class="text-warning" slot="next-text">Next</span>
-          <span class="text-info" slot="last-text">Last</span>
-          <div slot="ellipsis-text">
-            <b-spinner small type="grow"></b-spinner>
-            <b-spinner small type="grow"></b-spinner>
-            <b-spinner small type="grow"></b-spinner>
-          </div>
           <span slot="page" slot-scope="{ page, active }">
             <b v-if="active">{{ page }}</b>
             <i v-else>{{ page }}</i>
@@ -91,15 +82,6 @@
           class="my-0"
           aria-controls="inactive-table"
         >
-          <span class="text-success" slot="first-text">First</span>
-          <span class="text-danger" slot="prev-text">Prev</span>
-          <span class="text-warning" slot="next-text">Next</span>
-          <span class="text-info" slot="last-text">Last</span>
-          <div slot="ellipsis-text">
-            <b-spinner small type="grow"></b-spinner>
-            <b-spinner small type="grow"></b-spinner>
-            <b-spinner small type="grow"></b-spinner>
-          </div>
           <span slot="page" slot-scope="{ page, active }">
             <b v-if="active">{{ page }}</b>
             <i v-else>{{ page }}</i>
