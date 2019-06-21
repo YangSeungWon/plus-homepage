@@ -10,7 +10,89 @@
       <span>Recent activity</span>
     </h2>
 
+    <!-- Work holder START -->
     <div class="works-holder fade-component">
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#799757"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>0CTF/TCTF 2019 Finals
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>seoulplusbadass
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>4위
+          </p>
+          <p class="copyright">
+            <span>2019.6.9</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#775757"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEFCON27 QUAL
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>seoulplusbadass
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>3위
+          </p>
+          <p class="copyright">
+            <span>2019.5.12</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
       <div
         class="work"
         data-image="#777777"
@@ -48,7 +130,288 @@
           </p>
         </div>
       </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#17f1f7"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>PlaidCTF 2018
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>KaisHack PLUS GoN
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>4위
+          </p>
+          <p class="copyright">
+            <span>2018.5.7</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#177177"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEF CON CTF 2018
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>KaisHack+PLUS+GoN
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>21위
+          </p>
+          <p class="copyright">
+            <span>2018.8.13</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#177177"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEF CON CTF Qualifier 2018
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>KaisHack+PLUS+GoN
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>7위
+          </p>
+          <p class="copyright">
+            <span>2018.5.14</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#ef71e7"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEF CON CTF 2017
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>hacking4danbi
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>11위
+          </p>
+          <p class="copyright">
+            <span>2017.7.30</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#ef5157"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEF CON CTF Qualifier 2017
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>hacking4danbi
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>6위
+          </p>
+          <p class="copyright">
+            <span>2017.5.1</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#177177"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>CODEGATE2016 University
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>PLUS
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>3위
+          </p>
+          <p class="copyright">
+            <span>2016.6</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#fefe77"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEFCON CTF FINAL 2011
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>PLUS
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>8위
+          </p>
+          <p class="copyright">
+            <span>2011.8</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
     </div>
+    <!-- Work holder END -->
 
     <h2 class="divider-line fade-component">
       <span>PLUS가 걸어온 길</span>
