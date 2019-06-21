@@ -20,7 +20,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/0ctf.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -60,7 +60,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -100,7 +100,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/pctf.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -140,7 +140,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -180,7 +180,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -220,7 +220,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/pctf.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -260,7 +260,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -300,7 +300,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -339,7 +339,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/codegate.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -379,7 +379,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/plus-logo.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -439,7 +439,7 @@ export default {
     return {
       controller: new ScrollMagic.Controller(),
       timeline: new TimelineMax({ paused: true }),
-      history: history
+      history: history.reverse()
     };
   },
   mounted() {},
