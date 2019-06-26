@@ -578,8 +578,7 @@ export default {
     position: relative;
     display: table;
     overflow: visible;
-    width: 31.3333%;
-    width: calc(33.3333% - 32px);
+    width: 33.3333%;
     height: auto;
     min-height: 400px;
     padding: 16px;

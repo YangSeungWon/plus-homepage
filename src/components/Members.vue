@@ -160,11 +160,12 @@ export default {
     position: relative;
     display: block;
     overflow: hidden;
-    width: 100%;
-    max-width: 760px;
+    width: 60%;
+    margin: auto;
     padding-bottom: 20px;
     padding-left: 60px;
     @include maxquery(640px) {
+      width: 100%;
       padding-left: 0px;
       padding-right: 0px;
     }

@@ -169,12 +169,8 @@ body {
   }
   // components
   .fade-component {
-    width: 98%;
-    width: calc(100% - 32px);
+    width: 100%;
     padding: 0 16px;
-    @include maxquery(640px) {
-      width: 100%;
-    }
   }
 }
 // page transitions
