@@ -31,6 +31,8 @@
           :filter="filter1"
           @filtered="onFiltered"
           :fields="fields"
+          :sort-by.sync="sortBy1"
+          :sort-desc.sync="sortDesc1"
         ></b-table>
       </div>
       <!-- content END -->
@@ -60,6 +62,8 @@
           :filter="filter2"
           @filtered="onFiltered"
           :fields="fields"
+          :sort-by.sync="sortBy2"
+          :sort-desc.sync="sortDesc2"
         ></b-table>
       </div>
       <!-- content END -->
@@ -90,6 +94,10 @@ export default {
   name: "Contact",
   data() {
     return {
+      sortBy2: "m-id",
+      sortDesc2: false,
+      sortBy1: "std-id",
+      sortDesc1: false,
       inactive_member: inactive_member,
       active_member: active_member,
       totalRows1: 1,
