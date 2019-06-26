@@ -583,7 +583,10 @@ export default {
     min-height: 400px;
     padding: 16px;
     float: left;
-    @include maxquery(992px) {
+    @include maxquery(1000px) {
+      width: 50%;
+    }
+    @include maxquery(640px) {
       width: 100%;
     }
     .content {
