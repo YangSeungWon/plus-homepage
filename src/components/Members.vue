@@ -38,7 +38,7 @@
       <!-- content END -->
 
       <h2 class="divider-line fade-component">
-        <span>전체 구성원</span>
+        <span>정회원 목록</span>
       </h2>
       <!-- content START -->
       <div class="content">
