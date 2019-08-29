@@ -10,8 +10,93 @@
       <span>Recent activity</span>
     </h2>
 
+
     <!-- Work holder START -->
     <div class="works-holder fade-component">
+
+    
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#f75f57"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEFCON27 FINAL
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>seoulplusbadass
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>9위
+          </p>
+          <p class="copyright">
+            <span>2019.8.9</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      
+    
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#552a27"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/gctf.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>GOOGLE CTF 2019 QUAL
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>LeaveCat-PLUS
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>4위
+          </p>
+          <p class="copyright">
+            <span>2019.6.22</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
       <!-- Work START -->
       <div
         class="work"
