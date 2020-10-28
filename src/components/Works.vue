@@ -14,7 +14,6 @@
     <!-- Work holder START -->
     <div class="works-holder fade-component">
 
-    
       <!-- Work START -->
       <div
         class="work"
@@ -23,7 +22,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/codegate.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -38,7 +37,127 @@
         <div class="content">
           <p>
             <strong>대회명</strong>
-            <br>DEFCON27 FINAL
+            <br>CODEGATE 2020 University
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>PLUS
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>2
+          </p>
+          <p class="copyright">
+            <span>2020.9.3</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#f75f57"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/defcon28.jpg" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEF CON CTF Finals 2020
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>koreanbadass
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>12
+          </p>
+          <p class="copyright">
+            <span>2020.8.7</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#f75f57"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/defcon28.jpg" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEF CON CTF Qualifier 2020
+          </p>
+          <p>
+            <strong>팀명</strong>
+            <br>koreanbadass
+          </p>
+          <p>
+            <strong>순위</strong>
+            <br>7
+          </p>
+          <p class="copyright">
+            <span>2020.5.16</span>
+          </p>
+        </div>
+      </div>
+      <!-- Work END -->
+
+      <!-- Work START -->
+      <div
+        class="work"
+        data-image="#f75f57"
+        @mouseenter="over($event)"
+        @mouseleave="leave($event)"
+        :key="0"
+      >
+        <img class="logo" src="/static/defcon27.png" alt="PLUS LOGO">
+        <div class="logo-bg-holder">
+          <div
+            class="logo-bg work-oval-big rotating-fast"
+            style="background-color: #FFF !important"
+          ></div>
+          <div
+            class="logo-bg work-oval-small rotating-slow"
+            style="background-color: #FFF !important"
+          ></div>
+          <div class="logo-bg work-circle" style="background-color: #FFF !important"></div>
+        </div>
+        <div class="content">
+          <p>
+            <strong>대회명</strong>
+            <br>DEF CON CTF Finals 2019
           </p>
           <p>
             <strong>팀명</strong>
@@ -55,8 +174,6 @@
       </div>
       <!-- Work END -->
 
-      
-    
       <!-- Work START -->
       <div
         class="work"
@@ -145,7 +262,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon27.png" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -160,7 +277,7 @@
         <div class="content">
           <p>
             <strong>대회명</strong>
-            <br>DEFCON27 QUAL
+            <br>DEF CON CTF Qualifier 2019
           </p>
           <p>
             <strong>팀명</strong>
@@ -225,7 +342,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon26.jpg" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"
@@ -240,7 +357,7 @@
         <div class="content">
           <p>
             <strong>대회명</strong>
-            <br>DEF CON CTF 2018
+            <br>DEF CON CTF Finals 2018
           </p>
           <p>
             <strong>팀명</strong>
@@ -265,7 +382,7 @@
         @mouseleave="leave($event)"
         :key="0"
       >
-        <img class="logo" src="/static/defcon.png" alt="PLUS LOGO">
+        <img class="logo" src="/static/defcon26.jpg" alt="PLUS LOGO">
         <div class="logo-bg-holder">
           <div
             class="logo-bg work-oval-big rotating-fast"

@@ -343,5 +343,20 @@
         "날짜": "2019.8",
         "내용": "DEF CON CTF 2019 Finals 9위",
         "비고": "연합팀 seoulplusbadass"
+    },
+    {
+        "날짜": "2020.5",
+        "내용": "DEF CON 2020 Quals 7위",
+        "비고": "연합팀 koreanbadass"
+    },
+    {
+        "날짜": "2020.8",
+        "내용": "DEF CON 2020 Finals 12위",
+        "비고": "연합팀 koreanbadass"
+    },
+    {
+        "날짜": "2020.9",
+        "내용": "CODEGATE 2020 대학부 2위",
+        "비고": ""
     }
 ]
